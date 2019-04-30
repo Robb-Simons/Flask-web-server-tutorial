@@ -1,0 +1,1 @@
+web: waitress-serve --host=localhost helloheroku:app
