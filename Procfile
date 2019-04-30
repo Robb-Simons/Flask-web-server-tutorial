@@ -1,1 +1,1 @@
-web: waitress-serve --port=5000 helloheroku:app
+web: waitress-serve --host helloheroku:app
