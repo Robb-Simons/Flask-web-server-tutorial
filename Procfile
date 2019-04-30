@@ -1,1 +1,1 @@
-web: waitress-serve --listen=127.0.0.1:8080 helloheroku:app
+web: waitress-serve --listen=127.0.0.1:8080 --call:helloheroku:app
