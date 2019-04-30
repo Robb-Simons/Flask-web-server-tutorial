@@ -1,1 +1,1 @@
-web: waitress-serve --host=localhost helloheroku:app
+web: waitress-serve --host=localhost:80 helloheroku:app
