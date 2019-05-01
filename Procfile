@@ -1,1 +1,1 @@
-web: waitress-serve --host=0.0.0.0 helloheroku:app
+waitress-serve --call 'flaskr:create_app'
